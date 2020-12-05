@@ -2,7 +2,7 @@
 
 它很简单
 
-如果熟悉MCDR的[插件文档](https://github.com/Fallen-Breath/MCDReforged/blob/master/doc/plugin_cn.md)那应该在可以1分钟内上手编写
+如果你熟悉MCDR的[插件文档](https://github.com/Fallen-Breath/MCDReforged/blob/master/doc/plugin_cn.md)那应该在可以1分钟内上手编写
 
 
 
@@ -10,7 +10,7 @@
 
 这一步很简单，只需要在on_load()里写:
 
-```python
+```
 global PluginID
 PluginID = server.get_plugin_instance("MCDR-API-PluginID")
 ```
@@ -23,7 +23,7 @@ PluginID = server.get_plugin_instance("MCDR-API-PluginID")
 
 建议这一步在on_load()内执行以确保没问题
 
-```python
+```
 regPlugin(server,pluginName,pluginID,pluginVer,pluginAuthor)
 ```
 
