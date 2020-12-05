@@ -2,7 +2,7 @@
 
 它很简单
 
-如果熟悉MCDR的[插件文档](https://github.com/Fallen-Breath/MCDReforged/blob/master/doc/plugin_cn.md))那应该在可以1分钟内上手编写
+如果熟悉MCDR的[插件文档](https://github.com/Fallen-Breath/MCDReforged/blob/master/doc/plugin_cn.md)那应该在可以1分钟内上手编写
 
 
 
