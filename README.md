@@ -23,7 +23,7 @@
 
 # 注意! 注意!! 注意!!!
 
-尽量不要把[MCDR-API-PluginID](https://github.com/SFR-Server/MCDR-API-PluginID)作为插件的必要前置，这会导致腐竹们必须多下载一个插件:)
+尽量不要把MCDR-API-PluginID作为插件的必要前置，这会导致腐竹们必须多下载一个插件:)
 
 
 
@@ -31,6 +31,6 @@
 
 2020/12/3:
 
-1. [MCDR-API-PluginID](https://github.com/SFR-Server/MCDR-API-PluginID)项目成立
+1. MCDR-API-PluginID项目成立
 2. 发布了0.0.1.201203-Alpha版本
 

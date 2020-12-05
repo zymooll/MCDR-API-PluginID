@@ -6,7 +6,7 @@
 
 
 
-### 导入[MCDR-API-PluginID](https://github.com/SFR-Server/MCDR-API-PluginID)
+### 导入MCDR-API-PluginID
 
 这一步很简单，只需要在on_load()里写:
 
@@ -33,7 +33,7 @@ regPlugin(server,pluginName,pluginID,pluginVer,pluginAuthor)
 | ------------ | ------------------------------------------------------------ |
 | server       | 纯粹只是让使函数内可以执行server下的函数，直接写server即可   |
 | pluginName   | 插件的文件名，填_\_name__即可                                |
-| pluginID     | 插件的"PluginID"，例如[MCDR-API-PluginID](https://github.com/SFR-Server/MCDR-API-PluginID)的"PluginID"为: `vip.sfrserver.api.pluginid` |
+| pluginID     | 插件的"PluginID"，例如MCDR-API-PluginID的"PluginID"为: `vip.sfrserver.api.pluginid` |
 | pluginVer    | 插件的版本号                                                 |
 | pluginAuthor | 插件的作者                                                   |
 
@@ -43,7 +43,7 @@ regPlugin(server,pluginName,pluginID,pluginVer,pluginAuthor)
 
 直接:
 
-```python
+```
 get_plugin_instance(server,pluginID)
 ```
 
@@ -54,7 +54,7 @@ get_plugin_instance(server,pluginID)
 | 参数名   | 干啥用的，或者说填啥                                         |
 | -------- | ------------------------------------------------------------ |
 | server   | 纯粹只是让使函数内可以执行server下的函数，直接写server即可   |
-| pluginID | 插件的"PluginID"，例如[MCDR-API-PluginID](https://github.com/SFR-Server/MCDR-API-PluginID)的"PluginID"为: `vip.sfrserver.api.pluginid` |
+| pluginID | 插件的"PluginID"，例如MCDR-API-PluginID的"PluginID"为: `vip.sfrserver.api.pluginid` |
 
 
 
@@ -64,13 +64,13 @@ get_plugin_instance(server,pluginID)
 
 ##### 解析后的样式:
 
-```json
+```
 [
     pluginID
 ]
 ```
 
-``pluginID``: 插件的"PluginID"，例如[MCDR-API-PluginID](https://github.com/SFR-Server/MCDR-API-PluginID)的"PluginID"为: `vip.sfrserver.api.pluginid`
+``pluginID``: 插件的"PluginID"，例如MCDR-API-PluginID的"PluginID"为: `vip.sfrserver.api.pluginid`
 
 
 
@@ -80,7 +80,7 @@ get_plugin_instance(server,pluginID)
 
 ##### 解析后的样式:
 
-```json
+```
 {
 	pluginID:[
 		pluginName,
@@ -90,7 +90,7 @@ get_plugin_instance(server,pluginID)
 }
 ```
 
-``pluginID``: 插件的"PluginID"，例如[MCDR-API-PluginID](https://github.com/SFR-Server/MCDR-API-PluginID)的"PluginID"为: `vip.sfrserver.api.pluginid`
+``pluginID``: 插件的"PluginID"，例如MCDR-API-PluginID的"PluginID"为: `vip.sfrserver.api.pluginid`
 
 `pluginName`: 插件的文件名
 
